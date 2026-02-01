@@ -1,0 +1,5 @@
+1. Parameter refresh after full run
+2. increase the field width to accomodate PIJF_0.63 in speck mgmt.
+2. Shift Starting pair position from Config to Run setup
+3. Config enrties to be retained unless changed and utill exit from program
+4. Alarms off in run setup

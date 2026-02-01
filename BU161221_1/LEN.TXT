@@ -1,0 +1,53 @@
+File READINI.CPP:
+        GetPrivateProfileString("BASIC_INFO","CABLE_LENGTH","1000",nConfig.szLength,"default.ini");
+File RUN.CPP:
+        sprintf(nConfig.szLength,"%u",config.m_Length);  //SDT11122016:0730
+        config.m_Length = atoi(nConfig.szLength);
+                        if (atoi(nConfig.szLength)<300)
+                        if (atoi(nConfig.szLength)<300)
+                        if (atoi(nConfig.szLength)<300)
+        m_FileInfo.nLength=atoi(nConfig.szLength);         //Cable length
+        sprintf (nConfig.szLength,"%d",m_FileInfo.nLength);
+                        if( nParCount == SRNO_CM && ( (m_FileInfo.nLength >= RAMPINI.nLength) || (atoi(nConfig.szLength) >= RAMPINI.nLength) ))
+                        if ( (nParCount == SRNO_CUPP||nParCount == SRNO_CUPG)&&(atof(nConfig.szLength) >= 2501.0) ) //Delay exchnged
+                        if ( (nParCount == SRNO_CUPP||nParCount == SRNO_CUPG)&&(atof(nConfig.szLength) >= 2501.0) ) //Delay exchnged
+                        if( nParCount == SRNO_CM && ( (m_FileInfo.nLength >= RAMPINI.nLength) || (atoi(nConfig.szLength) >= RAMPINI.nLength) ))
+                        if(nParamCount ==SRNO_CM && ( (m_FileInfo.nLength >= RAMPINI.nLength) || (atoi(nConfig.szLength) >= RAMPINI.nLength) ))
+File NEXTTEST.CPP:
+        int     /*nCableLength=atoi(nConfig.szLength),//19032001*/first = TRUE;
+        nCableLength=atoi(nConfig.szLength);
+File GMTEST.CPP:
+        nCableLength=atoi(nConfig.szLength);
+File FEXTTEST.CPP:
+        int     first = TRUE;//nCableLength=atoi(nConfig.szLength);
+        nCableLength=atoi(nConfig.szLength);
+                if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+                if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+File CUPSTEST.CPP:
+                        if ( atof(nConfig.szLength) >= 2501.0 )
+                        if ( atof(nConfig.szLength) >= 2501.0 )
+        nCableLength=atoi(nConfig.szLength);
+File CUPPTEST.CPP:
+                    if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+                    if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+        nCableLength=atoi(nConfig.szLength);
+File CRTEST.CPP:
+        nCableLength=atoi(nConfig.szLength);
+File CMTEST.CPP:
+                        if ( (m_FileInfo.nLength >= RAMPINI.nLength) || (atoi(nConfig.szLength) >= RAMPINI.nLength) )
+        nCableLength=atoi(nConfig.szLength);
+File CUPITEST.CPP:
+                    if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+                        if ( atof(nConfig.szLength) >= 2501.0 ) //Delay exchnged
+        nCableLength=atoi(nConfig.szLength);
+File CUPGTEST.CPP:
+                    if ( atof(nConfig.szLength) >= 2501.0 )
+                        if ( atof(nConfig.szLength) >= 2501.0 )
+        nCableLength=atoi(nConfig.szLength);
+File ATNTEST.CPP:
+        unsigned int     nCableLength=atoi(nConfig.szLength),first = TRUE;
+        nCableLength=atoi(nConfig.szLength);
+        unsigned int     nCableLength=atoi(nConfig.szLength);//Added by:sdt:14072009:2345
+File SECURITY.CPP:
+        /*if(atof(nConfig.szLength) > 0.0)
+                runkey.lckm+=(atoi(nConfig.szNoofpairs)*2* atof(nConfig.szLength)/1000);

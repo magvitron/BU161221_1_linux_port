@@ -1,0 +1,94 @@
+_deps/tvision-build/source/CMakeFiles/tvision.dir/tvision/tobjstrm.cpp.o: \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/source/tvision/tobjstrm.cpp \
+ /usr/include/stdc-predef.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tv.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/config.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/ttypes.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/util.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tspan.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tstrview.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/colors.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/scrncell.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tkeys.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tvobjs.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/tobjstrm.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland/dos.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland/_defs.h \
+ /usr/include/errno.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland/fstream.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland/iostream.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/iosfwd /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/bits/localefwd.h /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
+ /usr/include/c++/13/bits/locale_classes.tcc \
+ /usr/include/c++/13/system_error \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+ /usr/include/c++/13/cerrno /usr/include/c++/13/stdexcept \
+ /usr/include/c++/13/bits/functional_hash.h /usr/include/c++/13/streambuf \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h \
+ /usr/include/c++/13/bits/streambuf.tcc \
+ /usr/include/c++/13/bits/basic_ios.h \
+ /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
+ /usr/include/wctype.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/c++/13/cctype /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+ /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/c++/13/bits/stl_iterator_base_types.h \
+ /usr/include/c++/13/debug/debug.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+ /usr/include/c++/13/bits/locale_facets.tcc \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/bits/basic_ios.tcc \
+ /usr/include/c++/13/bits/ostream_insert.h \
+ /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/cxxabi_forced.h /usr/include/c++/13/istream \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h /usr/include/c++/13/cstdio \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/drawbuf.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/objects.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/system.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/views.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/dialogs.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/stddlg.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/app.h \
+ /usr/include/string.h \
+ /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland/fstream.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/c++/13/stdlib.h \
+ /usr/include/c++/13/cstdlib /usr/include/assert.h

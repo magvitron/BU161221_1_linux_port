@@ -1,0 +1,17 @@
+[SEQ_LIST]
+SEQUENCE_NAME=sequence name
+
+[CABLESEQ_sequence name]
+CATEGARY= Different Number of Pairs defined for that sequence.
+[Number of pairs for first option _PAIRS]
+PAIRSIN_UNIT_CATEGARY= For this categary having differrnt Pairs in Unit.
+[Pairs in unit for first option _PAIRSINUNIT]
+UNIT_TO_UNIT_ADJACENCIES= defination for adjacent Units for this Pairs in Unit categary#
+UNIT_TO_UNIT_NONADJACENCIES=defination for non adjacent Units for this Pairs in Unit categary#
+PAIR_TO_PAIR_ADJACENCIES=defination for adjacent Pairs for this Pairs in Unit categary#
+PAIR_TO_PAIR_NONADJACENCIES=defination for non adjacent Units for this Pairs in Unit categary#
+ALL_COMBINATIONS=defination for all combination of pairs used for testing of Xtalk Parameters.
+[Pairs in unit for first option_PAIRSINUNIT_END]
+[Number of pairs for first option _PAIRS_END]
+[CABLESEQ_sequence name_END]
+

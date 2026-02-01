@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/CMakeFiles/tvision-populate"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/CMakeFiles/tvision-populate.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/CMakeFiles/tvision-populate-complete.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-build.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-configure.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-download.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-install.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-patch.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-test.rule"
+		},
+		{
+			"file" : "/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-subbuild/tvision-populate-prefix/src/tvision-populate-stamp/tvision-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tvision-populate"
+		],
+		"name" : "tvision-populate"
+	}
+}

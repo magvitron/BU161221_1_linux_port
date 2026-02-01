@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/prnrep.dir/home/shreyas_home/BU_16_NEW/BU161221_1/PRNREP.CPP.o -o prnrep  _deps/tvision-build/libtvision.a -lncursesw /usr/lib/x86_64-linux-gnu/libtinfo.so /usr/lib/x86_64-linux-gnu/libgpm.so 

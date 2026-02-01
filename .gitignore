@@ -1,0 +1,12 @@
+build/
+_deps/
+*.zip
+*.o
+*.so
+*.a
+*.out
+cts
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
