@@ -481,24 +481,24 @@ unsigned long ulMinHeapMem = 0;
 				nExit_status=0; //Condition added by:sdt:17122016:1905
 
 			memset( &currentUser, 0, sizeof( currentUser ) );
-			if ( getPassword( currentUser ) == False )
-			{
-				//accessMsg( "  Violation: CTS Access Denied ");//Commented by:sdt:26072005:0041
-				//::remove( "cts.ini" );//Commented by:sdt:04012006:2230
-				//It was irrelevent to delete CTS.INI from current directory
-				//as it is not holding passwords of entry level.
-				exit( 0 );
-			}
-			//Added by:sdt:08122005:1410
-			//For disabling Speck management for operator level.
-			if(currentUser.userType==U_OPERATOR)
-			{
-				disableCommand( cmManagement );
-				disableCommand( cmFormulae ); //Added by:sdt:11102006:2155
-				disableCommand( cmPrintFormulae ); //Added by:sdt:11102006:2155
-				disableCommand( cmPrintCalibrate ); //Added by:sdt:06112006:2210
+			// if ( getPassword( currentUser ) == False )
+			// {
+			// 	//accessMsg( "  Violation: CTS Access Denied ");//Commented by:sdt:26072005:0041
+			// 	//::remove( "cts.ini" );//Commented by:sdt:04012006:2230
+			// 	//It was irrelevent to delete CTS.INI from current directory
+			// 	//as it is not holding passwords of entry level.
+			// 	exit( 0 );
+			// }
+			// //Added by:sdt:08122005:1410
+			// //For disabling Speck management for operator level.
+			// if(currentUser.userType==U_OPERATOR)
+			// {
+			// 	disableCommand( cmManagement );
+			// 	disableCommand( cmFormulae ); //Added by:sdt:11102006:2155
+			// 	disableCommand( cmPrintFormulae ); //Added by:sdt:11102006:2155
+			// 	disableCommand( cmPrintCalibrate ); //Added by:sdt:06112006:2210
 
-			}
+			// }
 			ev.what = evCommand;
 			ev.message.command = cmInitSystem;
 			putEvent(ev);

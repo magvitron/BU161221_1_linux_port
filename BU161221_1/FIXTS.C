@@ -179,7 +179,7 @@ void main (int argc,char *argv[])
      {
      	char version[10];
         clrscr();
-		printf("\n�FX20118");//Alt213
+		printf("\nFX20118");//Alt213
         //Modified by:start:sdt:18092001
 
 		dec (3,"ever.sig", "ver.sig","");

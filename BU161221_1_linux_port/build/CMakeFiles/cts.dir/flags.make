@@ -6,5 +6,5 @@ CXX_DEFINES = -DUses_TObjStrm -DUses_TStreamable -DUses_TStreamableClass -DUses_
 
 CXX_INCLUDES = -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/../BU161221_1 -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland
 
-CXX_FLAGS = -std=gnu++14 -w -include /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/linux_borland_compat.h
+CXX_FLAGS = -g -std=gnu++14 -w -include /home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/linux_borland_compat.h
 

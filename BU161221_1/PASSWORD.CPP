@@ -103,6 +103,9 @@ Boolean getPassword( User& currentUser )
 	memset(lgn, 0, sizeof(lgn));
 	memset(pwd, 0, sizeof(pwd));
 	memset( users, 0, sizeof( users ) );
+	printf(lgn);
+	printf(pwd);
+	// printf(users[0]);
 	dec( 3, "erest.inf", "rest.inf", "" );
 	memset( lastLogin, 0, MAX_LOGIN_LEN+1 );
 	readFile( MAX_USERS, users, lastLogin );

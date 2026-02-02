@@ -83,7 +83,7 @@ void getConfigSetup(Config& config)
 	pConfig->pl = new TInputLine( TRect( 36, 10, 44, 11 ), 6 );
 	pConfig->insert( pConfig->pl );
 	// temperature
-	pConfig->insert( new TStaticText( TRect( 2, 12, 19, 13 ), "Temp          �C" ));
+	pConfig->insert( new TStaticText( TRect( 2, 12, 19, 13 ), "Temp          °C" ));
 	pConfig->pt = new TInputLine( TRect( 7, 12, 15, 13 ), 6 );
 	pConfig->insert( pConfig->pt );
 	pConfig->insert( new TStaticText( TRect( 21, 12, 37, 13 ), "Start Cond From" ));

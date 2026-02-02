@@ -32,19 +32,22 @@ class TPWDInputLine : public TInputLine
 public :
 	//TPWDInputLine( TRect& r, int nLen, char *tpwd ) : TInputLine( r, nLen )
 //	TPWDInputLine( TRect& r, int nLen, char *tpwd )
-    TPWDInputLine(const TRect &bounds, int limit, char *aText)
-        : TInputLine(bounds, limit, nullptr, ilMaxBytes)  // <-- important
+TPWDInputLine(const TRect &bounds, int limit, char *aText)
+    : TInputLine(bounds, limit, nullptr, ilMaxBytes)
+{
+    // Allocate based on limit (what the control may write), not strlen(aText).
+    passEntered = new char[limit + 1];
+    passWord    = new char[limit + 1];
 
-	{
-		int nLen = (aText) ? (int) std::strlen(aText) : 0;
-		passEntered = new char[nLen + 1];
-		if (aText) std::strcpy(passEntered, aText);
-		else passEntered[0] = '\0';
-		//passEntered = new char[ nLen+1 ];
-		passWord = new char[ nLen+1 ];
-		memset ( passEntered, 0, nLen );
-		memset ( passWord, 0, nLen );
-	};
+    // Clear the whole buffers including the terminating '\0'.
+    memset(passEntered, 0, limit + 1);
+    memset(passWord,    0, limit + 1);
+
+    // If initial text is provided, copy safely (bounded).
+    if (aText)
+        strncpy(passEntered, aText, limit);  // leaves null terminator because buffers are zeroed
+}
+
    virtual void getData( void *rec );
    virtual void setData( void *rec );
    ~TPWDInputLine( void )

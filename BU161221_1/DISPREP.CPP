@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
      {
      	char version[10];
           clrscr();
-          printf("\n�FX20731");//Alt245
+          printf("\nFX20731");
 
           GetPrivateProfileString ("MAIN","VER","FXS20705",version,"ver.sig",0);
      	printf("\nCompatible to  %s",version);
@@ -1637,7 +1637,7 @@ void DispParamHeader (int *array,int *nFreqArray, int *nNormArray, int cpi)
 						 if(((nPno==SRNO_CR)&&NORM_TEMP)||((nPno==SRNO_ATN)&&NORM_TEMP))
 						 {
 							char sNorm_Temp[10];
-							sprintf(sNorm_Temp," @%.1f�C",speckData.fNormTemp);
+							sprintf(sNorm_Temp," @%.1f°C",speckData.fNormTemp);
 							strcat(ctmp,sNorm_Temp);
 						 }
                     }

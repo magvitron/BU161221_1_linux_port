@@ -6,7 +6,7 @@ CXX_DEFINES = -DHAVE_GPM -DHAVE_NCURSES -DTVISION_NO_STL
 
 CXX_INCLUDES = -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/borland -I/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-src/include/tvision/compat/windows -I/usr/include/ncursesw
 
-CXX_FLAGS = -std=gnu++14 -Wall -Wextra -Wno-deprecated -Wno-unknown-pragmas -Wno-pragmas -Wno-missing-field-initializers
+CXX_FLAGS = -g -std=gnu++14 -Wall -Wextra -Wno-deprecated -Wno-unknown-pragmas -Wno-pragmas -Wno-missing-field-initializers
 
 # PCH options: _deps/tvision-build/source/CMakeFiles/tvision.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;/home/shreyas_home/BU_16_NEW/BU161221_1_linux_port/build/_deps/tvision-build/source/CMakeFiles/tvision.dir/cmake_pch.hxx
 

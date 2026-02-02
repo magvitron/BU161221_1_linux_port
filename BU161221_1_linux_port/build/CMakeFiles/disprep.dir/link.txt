@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/disprep.dir/home/shreyas_home/BU_16_NEW/BU161221_1/DISPREP.CPP.o -o disprep  _deps/tvision-build/libtvision.a -lncursesw /usr/lib/x86_64-linux-gnu/libtinfo.so /usr/lib/x86_64-linux-gnu/libgpm.so 
+/usr/bin/c++ -g CMakeFiles/disprep.dir/home/shreyas_home/BU_16_NEW/BU161221_1/DISPREP.CPP.o -o disprep  _deps/tvision-build/libtvision.a -lncursesw /usr/lib/x86_64-linux-gnu/libtinfo.so /usr/lib/x86_64-linux-gnu/libgpm.so 
